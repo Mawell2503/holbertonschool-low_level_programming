@@ -7,9 +7,10 @@
 
 int main (void)
 {
-	char ch = a-z
-	putchar('ch');
-	putchar('\n');
+	char ptas;
+ 	for (ptas = 'a'; 'z' >= ptas; ptas++)
+		putchar(ptas);
+		putchar('\n');
 
 	return 0;
 }
