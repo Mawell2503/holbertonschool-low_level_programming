@@ -9,8 +9,8 @@ int main (void)
 {
 	char ptas;
  	for (ptas = 'a'; 'z' >= ptas; ptas++)
-		putchar(ptas);
-		putchar('\n');
+	putchar(ptas);
+	putchar('\n');
 
 	return 0;
 }
