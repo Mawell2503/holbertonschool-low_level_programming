@@ -7,7 +7,8 @@
 
 int main (void)
 {
-	putchar("a-z");
+	char ch = 'a-z'
+	putchar("ch");
 	putchar("\n");
 
 	return 0;
