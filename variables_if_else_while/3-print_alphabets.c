@@ -8,14 +8,14 @@
 int main (void)
 {
 	char ptas;
-	char ptes;
 
-	for (ptas = 'a'; 'z' >= ptas; ptas++)
-	for (ptes = 'A'; 'Z' >= ptes; ptes++)
-	putchar(ptas);
-	putchar(ptes);
+	for(ptas = 'a'; ptas <= 'z'; ptas++ )
+		putchar(ptas);
+			
+	for (ptas = 'A'; ptas <= 'Z'; ptas++)
+		putchar(ptas);
+
 	putchar('\n');
 
 	return (0);
 }
-
