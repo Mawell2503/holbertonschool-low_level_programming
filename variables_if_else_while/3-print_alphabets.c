@@ -5,13 +5,13 @@
 * Return: 0
 */
 
-int main (void)
+int main(void)
 {
 	char ptas;
 
-	for(ptas = 'a'; ptas <= 'z'; ptas++ )
+	for(ptas = 'a'; ptas <= 'z'; ptas++)
 		putchar(ptas);
-			
+
 	for (ptas = 'A'; ptas <= 'Z'; ptas++)
 		putchar(ptas);
 
