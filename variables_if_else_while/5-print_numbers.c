@@ -9,7 +9,7 @@ int main(void)
 {
 	int po;
 
-	for(po = '0'; po <= '9'; po++)
+	for (po = '0'; po <= '9'; po++)
 	putchar(po);
 	putchar('\n');
 
