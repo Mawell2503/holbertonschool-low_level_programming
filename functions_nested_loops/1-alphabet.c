@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
-* main - prints Hello, world
+* print_alphabet - prints Hello, world
 * Return: 0
 */
 
