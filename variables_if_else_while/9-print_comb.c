@@ -11,8 +11,8 @@ int main(void)
 
 	for (mk = 0; mk <= 9;mk++ )
 	{
-		putchar(mk);
-		if (mk + '0')
+		putchar(mk + '0');
+		if (mk < 9)
 		{
 			putchar(',');
 			putchar(' ');
