@@ -7,12 +7,12 @@
 * Return: 1 if c is a digit, 0 otherwise
 */
 
-int _islower(int c);
+int _islower(int c)
 {
-	char c;
-
-	if(c = 'a-z')
-		_putchar(1);
-	else
-		-putchar(0);
+	if(c >= 'a')
+	{
+		if(c <= 'z')
+			return(1);
+	}
+	return(0);
 }
