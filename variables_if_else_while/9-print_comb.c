@@ -9,7 +9,7 @@ int main(void)
 {
 	short mk;
 
-	for (mk = 0; mk <= 9;mk++ )
+	for (mk = 0; mk <= 9; mk++)
 	{
 		putchar(mk + '0');
 		if (mk < 9)
@@ -17,6 +17,8 @@ int main(void)
 			putchar(',');
 			putchar(' ');
 		}
+
 	}
+	putchar('\n');
 	return (0);
 }
