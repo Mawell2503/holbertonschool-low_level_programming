@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* proto - int _islower(int c);
+* int _islower(int c) - check for lower characters
 * @c: bla
 *
 * Return: 1 if c is a digit, 0 otherwise
