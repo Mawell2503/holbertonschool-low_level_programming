@@ -2,10 +2,11 @@
 #include "main.h"
 
 /**
-* proto - bla bla
-* @c: bla
+* swap_int - swaps the value of 2 integers 
+* @a: pointer of the first integer
+* @b: pointer of the second integer
 *
-* Return: 1 if c is a digit, 0 otherwise
+* Return: Nothing
 */
 
 void swap_int(int *a, int *b)
