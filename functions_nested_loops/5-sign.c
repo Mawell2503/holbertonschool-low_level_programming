@@ -2,9 +2,9 @@
 
 /**
 * print_sign - print sign of a number
-* @c: bla
+* @c: pointer to an integer
 *
-* Return: 1 if c is a digit, 0 otherwise
+* Return: 1 
 */
 
 int print_sign(int n)
@@ -24,4 +24,4 @@ int print_sign(int n)
 		_putchar('-');
 		return (-1);
 	}
-} 
+}
