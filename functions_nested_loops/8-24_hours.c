@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
-* jack_bauer - prints every minute
-* @c: bla
+* jack_bauer - prints every minute of the day
 *
 * Return: 1 if c is a digit, 0 otherwise
 */
