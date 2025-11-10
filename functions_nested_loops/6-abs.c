@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-* 6-abs.c - find absolute value
-* @c: bla
+* _abs - computes absolute value
+* @n: pointer to an integer
 *
 * Return: 1 if c is a digit, 0 otherwise
 */
