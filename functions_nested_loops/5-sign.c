@@ -2,7 +2,7 @@
 
 /**
 * print_sign - print sign of a number
-* @c: pointer to an integer
+* @n: pointer to an integer
 *
 * Return: 1
 */
