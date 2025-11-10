@@ -4,7 +4,7 @@
 * print_sign - print sign of a number
 * @c: pointer to an integer
 *
-* Return: 1 
+* Return: 1
 */
 
 int print_sign(int n)
