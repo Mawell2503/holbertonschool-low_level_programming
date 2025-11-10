@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-* int _isalpha - bla bla
-* @c: bla
+* _isalpha - checks for alphabetic characters
+* @c: pointer to an integer
 *
 * Return: 1 if c is a digit, 0 otherwise
 */
