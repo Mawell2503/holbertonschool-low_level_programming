@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 
-/*
- * _puts - prints a string folowed by a new line
+/**
+ * _puts - prints a string followed by a new line
  * @str: pointer to a char
  *
- * Return:0
+ * Return: void
  */
 
 void _puts(char *str)
