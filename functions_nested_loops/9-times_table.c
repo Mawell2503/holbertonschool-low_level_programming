@@ -10,13 +10,13 @@
 
 void times_table(void)
 {
-        int factX;
-        int factY;
-        int prod;
+	int factX;
+	int factY;
+	int prod;
 
-	for (factX = 0;factX <= 9;factX++)
+	for (factX = 0; factX <= 9; factX++)
 	{
-		for (factY = 0;factY <= 9;factY++)
+		for (factY = 0; factY <= 9; factY++)
 		{
 			prod = factX * factY;
 
