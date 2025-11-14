@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
-* times_table - bla bla
-* @c: bla
+* times_table - prints 9 times tables
+* @c: 
 *
 * Return: 1 if c is a digit, 0 otherwise
 */
