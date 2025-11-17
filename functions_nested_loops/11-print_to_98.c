@@ -2,30 +2,62 @@
 #include <stdio.h>
 
 /**
-* proto - bla bla
-* @c: bla
+* print_to_98 - prints all natural number till 98
+* @n:variable of an integer
 *
 * Return: 1 if c is a digit, 0 otherwise
 */
 
 void print_to_98(int n)
 {
-	for(;n <= 98;n++)
+	if (n < 98)
 	{
-		if (n < 10)
+		for (; n != 98; n++)
 		{
-			_putchar(n + '0');
-		}
-		else
-		{
-			_putchar((n / 10) + '0');
-			_putchar((n % 10) + '0');
-		}
-		if (n != 98)
-		{
-			_putchar(',');
-                        _putchar(' ');
+			if ( n < 10)
+			{
+				_putchar(n + '0');
+				_putchar(',');
+				_putchar(' ');
+			}
+
+			else if (n == 98)
+			{
+				_putchar(n + '0');
+			}
+
+			else
+			{
+				_putchar((n / 10) + '0');
+				_putchar((n % 10) + '0');
+				_putchar(',');
+				_putchar(' ');
+			}
 		}
 	}
-	_putchar('\n');
+
+	if (n > 98)
+	{
+		for (; n != 98; n--)
+		{
+			if (n >= 100)
+			{
+				_putchar((n / 100) + '0');
+				_putchar((n / 10) + '0');
+				_putchar((n % 10) + '0');
+				_putchar(',');
+				_putchar(' ');
+			}
+
+			else if (n == 98)
+			{
+				_putchar(n + '0');
+			}
+
+			else
+			{
+				_putchar((n / 10) + '0');
+			}
+		}
+	}
 }
