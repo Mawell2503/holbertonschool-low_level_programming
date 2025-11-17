@@ -2,10 +2,9 @@
 #include <stdio.h>
 
 /**
-* times_table - prints 9 times tables
-* @c: 
+* times_table - prints 9 times tables starting with 0
 *
-* Return: 1 if c is a digit, 0 otherwise
+* Return: void
 */
 
 void times_table(void)
