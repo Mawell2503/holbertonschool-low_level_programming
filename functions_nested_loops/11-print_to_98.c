@@ -1,11 +1,11 @@
 #include "main.h"
 #include <stdio.h>
- 
+
 /**
-* print_to_98 - prints all natural number till 98
-* @n:variable of an integer
+* printw - helper function to simplifly _putchar
+* @n: variable to print
 *
-* Return: 1 if c is a digit, 0 otherwise
+* Return: void
 */
 
 void printw(int n)
@@ -19,11 +19,18 @@ void printw(int n)
 	if (n / 10)
 		printw(n / 10);
 
-	_putchar((n % 10 ) + '0');
+	_putchar((n % 10) + '0');
 }
 
+/**
+* print_to_98 - prints all natural number till 98
+* @n:variable of an integer
+*
+* Return: void
+*/
+
 void print_to_98(int n)
-{ 
+{
 	if (n <= 98)
 	{
 		for (; n <= 98; n++)
