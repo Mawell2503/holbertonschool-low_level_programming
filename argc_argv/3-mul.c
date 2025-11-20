@@ -3,11 +3,11 @@
 #include <stdlib.h>
 
 /**
- * main - function that multiplies two numbers
+ * main - multiplies two numbers
  * argc: number of arguments passed to the program
  * argv: array of pointers to the argumenmts
  *
- * Return: 0
+ * Return: 0 on success, 1 on eror
  */
 
 int main(int argc, char *argv[])

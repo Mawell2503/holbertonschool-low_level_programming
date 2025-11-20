@@ -5,10 +5,10 @@
 
 /**
  * main - adds positive numbers
- * argc: number of arguments passed to the proogram
- * argv: array of pointers to the arguments
+ * argc: number of arguments passed to the program
+ * argv: array of strings containing the arguments
  *
- * Return: 0
+ * Return: 0 on success, 1 if an argument contains a non-digit character
  */
 
 int main(int argc, char *argv[])
