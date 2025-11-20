@@ -1,23 +1,32 @@
 #include <stdio.h>
 #include "main.h"
+#include <stdlib.h>
 
 /**
- * main - function that prints two numbers
+ * main - function that multiplies two numbers
  * argc: argument count
  * argv: argument vector
  *
  * Return: 0
  */
 
-void main(int argc, char * argv[])
+int main(int argc, char * argv[])
 {
-	(void)argc;
-	(void)argv;
-	int x;
-	int y;
-	int result;
+	int num1;
+	int num2;
+	int sum;
 
-	result = x * y;
+	if (argc != 3)
+	{
+		printf("Error\n");
+		return 1;
+	}
 
-	return(0);
+	num1 = atoi(argv[1]);
+	num2 = atoi(argv[2]);
+	sum = num1 * num2;
+
+	printf("%d\n", sum);
+
+	return 0;
 }
