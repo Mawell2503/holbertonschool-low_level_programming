@@ -4,8 +4,8 @@
 
 /**
  * main - function that multiplies two numbers
- * argc: argument count
- * argv: argument vector
+ * argc: number of arguments passed to the program
+ * argv: array of pointers to the argumenmts
  *
  * Return: 0
  */

@@ -5,8 +5,8 @@
 
 /**
  * main - adds positive numbers
- * argc: argument count
- * argv: argument vector
+ * argc: number of arguments passed to the proogram
+ * argv: array of pointers to the arguments
  *
  * Return: 0
  */
