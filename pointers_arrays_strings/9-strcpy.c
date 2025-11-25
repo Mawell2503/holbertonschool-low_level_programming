@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * strcpy - copies the string to the buffer
+ * _strcpy - copies the string to the buffer
  * @dest: pointer to a character
  * @src: pointer to a character
  *
@@ -15,7 +15,7 @@ char *_strcpy(char *dest, char *src)
 
 	while (src[i] != '\0')
 	{
-		dest[i] =src[i];
+		dest[i] = src[i];
 		i++;
 	}
 
