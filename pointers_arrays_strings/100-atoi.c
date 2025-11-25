@@ -2,13 +2,13 @@
 #include <stdio.h>
 
 /**
- * atoi - converts string to an integer
- * @s: variable to a charracter
+ * _atoi - converts string to an integer
+ * @s: input string
  *
- * Return: 0
+ * Return: the converted integer
  */
 
-int _atoi(char *s);
+int _atoi(char *s)
 {
 	int i = 0;
 	int sign = 1;
@@ -18,7 +18,7 @@ int _atoi(char *s);
 	while (s[i] != '\0')
 	{
 		if (s[i] == '-')
-			sign = sign * -1
+			sign = sign * -1;
 		else if (s[i] == '+')
 			;
 		else if(s[i] >= '0' && s[i] <= '9')
@@ -29,7 +29,7 @@ int _atoi(char *s);
 		else if (found_digit)
 			break;
 
-		i++
+		i++;
 	}
 
 	return (num * sign);
