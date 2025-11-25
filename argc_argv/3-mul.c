@@ -4,8 +4,8 @@
 
 /**
  * main - multiplies two numbers
- * argc: number of arguments passed to the program
- * argv: array of pointers to the argumenmts
+ * argc: number of command-line argumenets
+ * argv: array of command-line arguments strings
  *
  * Return: 0 on success, 1 on eror
  */

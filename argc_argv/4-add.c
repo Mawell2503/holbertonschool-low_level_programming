@@ -5,8 +5,8 @@
 
 /**
  * main - adds positive numbers
- * argc: number of arguments passed to the program
- * argv: array of strings containing the arguments
+ * argc: number of command-line arguments
+ * argv: array of command-line arguments string
  *
  * Return: 0 on success, 1 if an argument contains a non-digit character
  */
