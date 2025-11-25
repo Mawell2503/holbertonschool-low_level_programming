@@ -12,7 +12,7 @@ int _atoi(char *s)
 {
 	int i = 0;
 	int sign = 1;
-	int num = 0;
+	long num = 0;
 	int found_digit = 0;
 
 	while (s[i] != '\0')
