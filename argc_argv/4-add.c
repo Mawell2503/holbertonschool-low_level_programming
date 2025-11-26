@@ -4,9 +4,9 @@
 #include <stdlib.h>
 
 /**
- * main - adds positive numbers
- * argc: number of command-line arguments
- * argv: array of command-line arguments string
+ * main - adds positive numbers passed as arguments
+ * @argc: number of arguments passed to the program
+ * @argv: array of pointers to the arguments
  *
  * Return: 0 on success, 1 if an argument contains a non-digit character
  */
