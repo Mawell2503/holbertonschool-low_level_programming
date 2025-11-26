@@ -3,9 +3,9 @@
 #include <stdlib.h>
 
 /**
- * main - multiplies two numbers
- * argc: number of command-line argumenets
- * argv: array of command-line arguments strings
+ * main - multiplies two numbers passed as arguments
+ * @argc: number of arguments passed to the program
+ * @argv: array of pointers to the arguments 
  *
  * Return: 0 on success, 1 on eror
  */
