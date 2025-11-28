@@ -3,27 +3,27 @@
 #include <stdlib.h>
 
 /**
- * create_array - a function that creates and intializes an array of specific char
+ * create_array -function that creates and intializes an array of specific char
  * @size: size of the array
  * @c: char to initialize the array with
  *
- *Return: pointer to array, or NULL if it fails 
+ *Return: pointer to array, or NULL if it fails
  */
 
 char *create_array(unsigned int size, char c)
 {
-	char *arr; 
+	char *arr;
 	unsigned int i;
 
 	if (size == 0)
-		return NULL;
+		return (NULL);
 
 	arr = malloc(size * sizeof(char));
-	if(arr == NULL)
-		return NULL;
+	if (arr == NULL)
+		return (NULL);
 
-	for (i = 0;i < size;i++)
+	for (i = 0; i < size; i++)
 		arr[i] = c;
 
-	return arr;
+	return (arr);
 }
