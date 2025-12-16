@@ -16,7 +16,7 @@ char *_strncat(char *dest, char *src, int n)
 	int dest_index = 0;
 
 	if (dest == NULL || src == NULL || n < 0)
-		return NULL;
+		return (NULL);
 
 	for (; dest[dest_index] != '\0'; dest_index++)
 		;
@@ -25,7 +25,7 @@ char *_strncat(char *dest, char *src, int n)
 		;
 
 	if (n > src_index - 1)
-		return (-1);
+		return (NULL);
 
 	src_index = 0;
 
@@ -36,5 +36,5 @@ char *_strncat(char *dest, char *src, int n)
 		src_index++;
 	}
 
-	return dest;
+	return (dest);
 }
