@@ -12,12 +12,24 @@
 
 char *_strncpy(char *dest, char *src, int n)
 {
+	int count = 0;
+
 	n = 0;
+
+	for (; src[n] != '\0'; n++)
+	{
+		count++;
+	}	/*counting num of char in the string*/
+
 
 	while (src[n] != '\0')
 	{
 		dest[n] = src[n];
 		n++;
-	}
-	return dest;
+	}	/*copying *src to *dest*/
+
+	if (dest[n] != count)
+		return (NULL);	/*checking for err*/
+
+	return (dest);
 }
