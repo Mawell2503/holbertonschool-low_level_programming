@@ -12,7 +12,7 @@ void more_numbers(void)
 	int n;
 	int rows = 0;
 
-	while (rows < 11)
+	while (rows < 10)
 	{
 		n = 0;
 		while (n < 15)
