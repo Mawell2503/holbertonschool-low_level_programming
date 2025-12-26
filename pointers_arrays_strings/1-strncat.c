@@ -15,26 +15,22 @@ char *_strncat(char *dest, char *src, int n)
 	int src_index = 0;
 	int dest_index = 0;
 
-	if (dest == NULL || src == NULL || n < 0)
+	if (dest == NULL || src == NULL)
 		return (NULL);
+	if (n <= 0)
+		return (dest);
 
 	for (; dest[dest_index] != '\0'; dest_index++)
 		;
 
-	for (; src[src_index] != '\0'; src_index++)
-		;
-
-	if (n > src_index - 1)
-		return (NULL);
-
-	src_index = 0;
-
-	while (src_index < n)
+	while (src_index < n && src[src_index] != '\0')
 	{
 		dest[dest_index] = src[src_index];
 		dest_index++;
 		src_index++;
 	}
+
+	dest[dest_index] = '\0';
 
 	return (dest);
 }
