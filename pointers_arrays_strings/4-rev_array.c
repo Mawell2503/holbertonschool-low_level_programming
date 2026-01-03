@@ -17,9 +17,9 @@
 
 	while (start < end)
 	{
-		a[start] = temp;
-		a[end] =  a[start];
-		temp = a[end];
+		temp = a[start]
+		a[start] = a[end];
+		a[end] = temp;
 
 		start++;
 		end--;
