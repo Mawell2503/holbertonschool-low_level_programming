@@ -3,32 +3,34 @@
 
 /**
  * cap_string - capitalizes all words of a string
+ * @s: string to capitalize
  *
- * return:0
+ * Return:s
  */
 
 char *cap_string(char *s)
 {
-	int sep;
-	int is_sep = (sep == ' ' || sep == ',' || sep == ';' || sep == '.' || sep == '!' || sep == '?');
 	int i = 0;
 
 	if (s[i] >= 'a' && s[i] <= 'z')
 	{
 		s[i] = s[i] - 32;
 	}
+
 	while (s[i] != '\0')
 	{
-		if (s[i] == is_sep)
+		if (s[i] == ' ' || s[i] == '	' || s[i] == '\n' || s[i] == ',' || s[i] == ';' || s[i] == '.' || s[i] == '!' || s[i] == '?' || s[i] == '"' || s[i] == '(' || s[i] == ')')
 		{
 			i++;
 			if (s[i] >= 'a' && s[i] <= 'z')
 			{
 				s[i] = s[i] - 32;
 			}
-
 		}
-		i++;
+		else
+		{
+			i++;
+		}
 	}
 	return (s);
 }
