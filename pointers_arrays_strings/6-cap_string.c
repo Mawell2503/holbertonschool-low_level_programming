@@ -7,7 +7,9 @@
  * return:0
  */
 
-char *cap_string(char *)
+char *cap_string(char *s)
 {
+	int sep;
 
+	if (sep = ',' || sep = ';' || sep = '.' || sep = '!' || sep = '?' || seop
 }
