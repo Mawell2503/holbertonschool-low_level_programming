@@ -30,6 +30,7 @@ void fizz_buzz(void)
 		if(n != 100)
 			printf(" ");
 	}
+	printf("\n");
 }
 
 int main(void)
