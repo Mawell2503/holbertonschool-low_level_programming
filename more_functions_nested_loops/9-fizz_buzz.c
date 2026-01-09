@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * fizz_buzz - writes 1 - 100 & Fizz(multiple of 3) & Buzz(multiple of 5)
+ * fizz_buzz - prints number 1 - 100 with FizzBuzz rules
  * @
  *
  * Return: 0
