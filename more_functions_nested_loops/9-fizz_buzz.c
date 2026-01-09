@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * fizz_buzz - a program that writes 1 - 100 & Fizz(multiple of 3) & Buzz(multiple of 5)
+ * fizz_buzz - writes 1 - 100 & Fizz(multiple of 3) & Buzz(multiple of 5)
  * @
  *
  * Return: 0
@@ -27,7 +27,7 @@ void fizz_buzz(void)
 			printf("%d", n);
 
 
-		if(n != 100)
+		if (n != 100)
 			printf(" ");
 	}
 	printf("\n");
