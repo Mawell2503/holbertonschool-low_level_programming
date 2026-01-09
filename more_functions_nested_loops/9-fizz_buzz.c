@@ -3,7 +3,6 @@
 
 /**
  * fizz_buzz - prints number 1 - 100 with FizzBuzz rules
- * @
  *
  * Return: 0
  */
