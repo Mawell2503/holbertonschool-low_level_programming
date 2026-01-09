@@ -32,6 +32,12 @@ void fizz_buzz(void)
 	printf("\n");
 }
 
+/**
+ * main - passes the fizz_buss argument
+ *
+ * Return: 0
+ */
+
 int main(void)
 {
 	fizz_buzz();
