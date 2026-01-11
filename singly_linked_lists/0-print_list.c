@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "list.h"
+#include "lists.h"
 
 /**
  *print_list - prints all elements of a list
@@ -22,15 +22,15 @@ size_t print_list(const list_t *h)
 	while (current != NULL)
 	{
 		/*if theres no string*/
-		if (current -> str ==NULL)
+		if (current->str == NULL)
 			printf("[0] (nil)\n");
 
 		else
 			/*prints the length of the string and the string itself*/
-			printf("[%u] %s\n",current -> len, current -> str);
+			printf("[%u] %s\n", current->len, current->str);
 
 		count++;
-		current = current -> next;
+		current = current->next;
 	}
 	return (count);
 }
