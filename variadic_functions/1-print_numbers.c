@@ -4,23 +4,23 @@
 
 /**
  * print_numbers - print numbers
- * @seperators: seperators
- * @n: varaible for numbers
- *
- *Return:0
+ * @separator: strings to print between numbers
+ * @n: variable for numbers
  */
 
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list args;
+	unsigned int i;
+
 	va_start(args, n);
 
-	for (unsigned int i = 0; i < n; i++)
+	for (i = 0; i < n; i++)
 	{
 		printf("%d", va_arg(args, int));
 
-		if(seperator != NULL && != n - 1)
-			printf("%s", seperator);
+		if (separator != NULL && != n - 1)
+			printf("%s", separator);
 	}
 
 	va_end(args);
