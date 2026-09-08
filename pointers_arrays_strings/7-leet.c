@@ -1,35 +1,38 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * leet- encodes a string
+ * leet - Encodes a strirng into 1337speak
+ * @str: The string to be encoded
  *
- * return:0
+ * Return: A pointer to the encoded string
  */
 
-char *leet(char *s)
+char *leet(char *str)
 {
-	int i;
-	int num_arr[5];
-	int char_arr[5];
+	int i = 0;
+	// 'i' represents the position of a character in str
+	int j;
+	// 'j' represents the position index of s[1] & s[2]
+	char s1[] = "aAeEoOtTlL";
+	// s[1] is the letters to be replaced
+	char s2[] = "4433007711";
+	// s[2] is the numbers we will use to replace the letters in s[1]
 
-	if (s[i] == 'a' || s[i] == 'A') 
-		num_arr[0]=s[i];
-	if (s[i] == 'e' || s[i] == 'E')
-		num_arr[1]=s[i];
-	if (s[i] == 'o' || s[i] == 'O')
-		num_arr[2]=s[i];
-	if (s[i] == 't' || s[i] == 'T')
-		num_arr[3]=s[i];
-	if (s[i] == 'l' || s[i] == 'L')
-		num-arr[4]=s[i];
-
-	char_arr[0]=
-	char_arr[1]=
-	char_arr[2]=
-	char_arr[3]=
-	char_arr[4]=
-
-	for
+	while (str[i] != '\0')
+	// while read the string from first index(i=0) to the null terminator
+	{
+		for (j = 0; j < 10; j++)
+		// for every index you go through in str, increment from 0 to 10 for j
+		{
+			if (str[i] == s1[j])
+			// if an index in str correspond to an index in s1
+			{
+				str[i] == s2[j];
+				// replace index in str w the same index position of s2
+			}
+		}
+		i++;
+		// move along the string
+	}
+	return (str);
 }
-
